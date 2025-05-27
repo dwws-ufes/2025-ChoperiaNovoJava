@@ -1,2 +1,4 @@
 # 2025-PizzariaNovoJava
 Assignment for the 2025 edition of the "Web Development and the Semantic Web" course, by Juliana Rodrigues de Lima Meirelles, Layla Maria dos Santos Couto, Rebeca Cecco de Oliveira and Rosiane da Silva Sangali.
+
+Na aplicação do controller, optamos por utilizar parâmetros diretamente nos métodos em vez de atributos de classe, ao contrário do que é feito no exemplo do JavaHostel. Essa abordagem está alinhada com as boas práticas do framework Spring, que privilegia o uso de métodos mais enxutos e controlados, com injeção explícita de dados por meio de anotações como @RequestParam, @PathVariable e @RequestBody. Além de promover maior clareza no fluxo de dados da aplicação, essa escolha favorece a manutenção, testabilidade e aderência ao padrão REST, compatibilizando a implementação com a arquitetura moderna do projeto.
